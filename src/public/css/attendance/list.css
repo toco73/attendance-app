@@ -1,0 +1,23 @@
+.table__th{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: #737373;
+    padding: 20px 50px;
+    border-bottom: 3px solid #D4D4D4;
+}
+
+.table__td{
+    display: flex;
+    justify-content: space-between;
+    color: #737373;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px 50px;
+    border-bottom: 2px solid #D4D4D4;
+}
+
+.table__td-item:last-child{
+    color: #000000;
+    font-weight: bold;
+}

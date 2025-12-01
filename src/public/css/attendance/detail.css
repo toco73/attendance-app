@@ -1,0 +1,100 @@
+.table{
+    margin-top: 40px;
+}
+
+.table__tr{
+    width: 100%;
+    border-bottom: 2px solid #E1E1E1;
+}
+
+.table__tr:last-child{
+    border-bottom: none;
+}
+
+.table__th{
+    display: flex;
+    justify-content: left;
+    padding: 32px 60px;
+    color: #737373;
+}
+
+.date__year{
+    margin-left: 30px;
+}
+
+.date__monthday{
+    margin-left: 9em;
+}
+
+.table__td-name{
+    padding: 32px 80px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 70%;
+}
+
+.table__td{
+    padding: 32px 50px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 70%;
+}
+
+input[type="time"]{
+    width: 120px;
+    padding: 5px 10px;
+    border: 1px solid #E1E1E1;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input[type="time"]:valid{
+    color: inherit;
+    -webkit-text-fill-color: inherit;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
+.tilde{
+    padding: 0 40px;
+}
+
+textarea{
+    width: 63%;
+    height: 80px;
+    border: 1px solid #E1E1E1;
+    border-radius: 4px;
+    vertical-align: top;
+    font-size: 16px;
+    font-weight: bold;
+    white-space: normal;
+    word-wrap: break-word;
+    resize: none;
+}
+
+.pending{
+    text-align: right;
+    color: #FF000080;
+    font-size: 18px;
+    font-weight: 800;
+    padding-top: 30px;
+}
+
+.submit-button{
+    display: flex;
+    justify-content: right;
+    margin-top: 30px;
+}
+
+.submit-button button{
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 5px 35px;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: bold;
+}
