@@ -1,7 +1,7 @@
 # 勤怠アプリ
 ## 環境構築
 ### Dockerビルド
-1. git clone 
+1. git clone git@github.com:toco73/attendance-app.git
 
 2. DockerDesktopアプリを立ち上げる
 
