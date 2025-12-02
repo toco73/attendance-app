@@ -41,7 +41,6 @@ App\Models\User::where('email','管理者のメールアドレスを入力する
   ・PHP7.4.9
 　・Laravel8.83.29
 　・MySQL8.0.26
-## ER図
 ## URL
 ・開発環境：http://localhost/
 ・phpMyAdmin：http://localhost:8080/
